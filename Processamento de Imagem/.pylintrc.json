@@ -1,0 +1,8 @@
+{
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2",
+        "--generate-members",
+        "pylint --unsafe-load-any-extension=y",
+        "pylint --extension-pkg-whitelist=your_c_extension"
+    ]
+}
